@@ -49,7 +49,7 @@
     // Try formatting Markdown JS Code Blocks
     try {
       str = str.replace(
-        /(^\s*```(?:js|javascript)\s*$[\r\n])([\s\S]*?)(^\s*```)/mig,
+        /(^\s*```(?:js|jsx|javascript)\s*$[\r\n])([\s\S]*?)(^\s*```)/mig,
         (_, start, code, end) => start + prettier.format(code) + end.trimRight()
       );
     } catch (error) {}
