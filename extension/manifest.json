@@ -1,6 +1,6 @@
 {
   "name": "Prettier JS",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "Uses Prettier to format js of focused <textarea>/<CodeMirror>",
   "homepage_url": "https://github.com/krawaller/prettier-js-extension",
