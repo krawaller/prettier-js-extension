@@ -1,6 +1,6 @@
 {
   "name": "prettier-js-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Chrome Extension using Prettier to format js of focused <textarea>/<CodeMirror>",
   "author": "Jacob Waller <jacob@krawaller.se>",
   "license": "MIT"
