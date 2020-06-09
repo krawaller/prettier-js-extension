@@ -6,7 +6,7 @@
   if (isCodeMirror) {
     const cm = el.closest('.CodeMirror').CodeMirror;
     const mode = cm && cm.getMode().name;
-    if (['javascript', 'markdown'].includes(mode)) {
+    if (['javascript', 'markdown', 'htmlmixed'].includes(mode)) {
       const hasSelection = cm.getSelection();
       if (hasSelection) {
         cm.replaceSelections(
